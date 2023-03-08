@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <hr />
+
+    <form action="">
+        <fieldset>
+            <label for="textNombre"> Name</label>
+            <input type="text" id="textNombre"/>
+        </fieldset>
+        <fieldset>
+            <label for="textCiudad">Ciudad</label>
+            <input type="text" id="textCiudad">
+        </fieldset>
+        <fieldset>
+            <label for="">Country</label>
+            <select name="countries" id="countries">
+                <option value="co">Colombia</option>
+                <option value="ve">Venezuela</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="">Genero</label>
+            <select>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" name="running" id="running"> Running <label for="running" value="running"></label><br>
+            <input type="checkbox" name="cycling" id="cycling"> Cycling <label for="cycling"></label><br>
+            <input type="checkbox" name="blender" id="blender"> Blender <label for="blender"></label><br>
+            <input type="checkbox" name="gym" id="gym"> Gym <label for="gym"></label>
+        </fieldset>
+        <fieldset>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </fieldset>
+        <fieldset>
+            <label for="">Color</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <fieldset>
+            <input type="button" value="Send info">
+        </fieldset>
+        <fieldset>
+            <label for="">Archivo</label>
+            <input type="file" name="archivo" id="Archivo">
+        </fieldset>
+        <input type="hidden" name="csrftoken" value="lhsdvjkñdflsk"/>
+        <div>
+            <header></header>
+        </div>
+
+        
+    </form>
+</body>
+</html>

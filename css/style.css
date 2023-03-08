@@ -1,0 +1,13 @@
+p{
+    color: white;
+    background-color: navy;
+}
+
+#principal{
+    color: green;
+}
+
+.alerta{
+    background-color: pink;
+    color: red;
+}
